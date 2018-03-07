@@ -40,6 +40,16 @@
 			<name>cefdigital</name>
 			<url>https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/</url>
 		</repository>
+		<repository>
+      		<id>nexus.internal</id>
+      		<name>Internal Repository</name>
+      		<url>http://localhost:8081/repository/maven-releases/</url>
+    	</repository>
+    	<repository>
+      		<id>nexus.internal.snapshots</id>
+      		<name>Internal Snapshots Repository</name>
+      		<url>http://localhost:8081/repository/maven-snapshots/</url>
+    	</repository>
 	</repositories>
 	
     <dependencies>
